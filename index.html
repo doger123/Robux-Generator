@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RobuxFly</title>
+<!--font-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="headerdiv">
+            <h1 class="header">RobuxFly</h1>
+        </div>
+
+        <div class="input">
+            <input type="text" class="userinput" placeholder="RobloxUsername">
+            <label>Robux-Amount:</label>
+        <select name="robuxamount" class="robuxamount">
+        <option value="500">500-R</option>
+        <option value="1,000">1,000-R</option>
+        <option value="5,000">5,000-R</option>
+        <option value="10,000">10,000-R</option>
+        </select>
+        </div>
+        <!--Images-->
+        <div class="img1">
+            <img src="./image/robux1.png" width="20%">
+            <img src="./image/robux1.png" width="20%">
+            <img src="./image/robux1.png" width="20%">
+        </div>
+        <div class="img2">
+            <img src="./image/robux1.png" width="20%">
+            <img src="./image/robux1.png" width="20%">
+            <img src="./image/robux1.png" width="20%">
+        </div>
+
+        <!--Button-->
+        <div class="button">
+            <button onclick="gen();">Generate Robux</button>
+        </div>
+    </div>
+
+    <div class="genbox">
+        <h2>Generating</h2>
+    </div>
+
+    <script src="./js/generator.js"></script>
+</body>
+</html>
